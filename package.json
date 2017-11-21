@@ -1,7 +1,7 @@
 {
   "name": "oauth-helper",
   "version": "1.0.0",
-  "description": "Microservice for assisting \"GitHub Hooks\" OAuth flow",
+  "description": "Microservice for assisting \"GitHub UI Hooks\" OAuth flow",
   "scripts": {
     "start": "node index.js"
   },
