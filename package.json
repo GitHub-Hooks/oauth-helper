@@ -6,7 +6,7 @@
     "start": "node index.js"
   },
   "main": "index.js",
-  "repository": "git@github.com:GitHub-Hooks/oauth-helper.git",
+  "repository": "git@github.com:GitHub-UI-Hooks/oauth-helper.git",
   "author": "ewolfe <e@ewolfe.me>",
   "license": "MIT",
   "engines": {
