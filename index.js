@@ -13,7 +13,7 @@ const server = http.createServer(async (req, res) => {
 
   const code = req.url.split('?code=')[1];
   if (!code) {
-    res.writeHead(302, { Location: 'https://github.com/github-hooks' });
+    res.writeHead(302, { Location: 'https://github.com/github-ui-hooks' });
     res.end();
     return;
   }
@@ -36,7 +36,7 @@ const server = http.createServer(async (req, res) => {
     res.end(JSON.stringify(accessObject.body));
     return;
   } else {
-    res.writeHead(301, { Location: `https://github.com/github-hooks/readme/wiki/success#${accessObject.body.access_token}` });
+    res.writeHead(301, { Location: `https://github.com/github-ui-hooks/readme/wiki/success#${accessObject.body.access_token}` });
     res.end();
     return;
   }

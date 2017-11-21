@@ -1,4 +1,4 @@
 # oauth-helper
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/GitHub-Hooks/oauth-helper.svg)](https://greenkeeper.io/)
-Microservice for assisting "GitHub Hooks" OAuth flow
+[![Greenkeeper badge](https://badges.greenkeeper.io/GitHub-UI-Hooks/oauth-helper.svg)](https://greenkeeper.io/)
+Microservice for assisting "GitHub UI Hooks" OAuth flow
