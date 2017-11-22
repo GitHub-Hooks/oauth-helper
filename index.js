@@ -36,7 +36,7 @@ const server = http.createServer(async (req, res) => {
     res.end(JSON.stringify(accessObject.body));
     return;
   } else {
-    res.writeHead(301, { Location: `https://github.com/github-ui-hooks/readme/wiki/success#${accessObject.body.access_token}` });
+    res.writeHead(301, { Location: `https://github.com/github-ui-hooks/github-ui-hooks/wiki/success#${accessObject.body.access_token}` });
     res.end();
     return;
   }
