@@ -10,7 +10,7 @@
   "author": "ewolfe <e@ewolfe.me>",
   "license": "MIT",
   "engines": {
-    "node": "8.9.1"
+    "node": "10"
   },
   "dependencies": {
     "got": "^8.0.0"
